@@ -1,0 +1,21 @@
+{
+  "name": "google_docs",
+  "version": "1.0.0",
+  "description": "Creating a Synchronous GDocs",
+  "main": "index.js",
+  "repository": "https://github.com/SujalBedre4/G-Docs",
+  "author": "Keren",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mongodb": "^6.14.2",
+    "mongoose": "^8.12.1",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1"
+  }
+}
